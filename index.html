@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <title>Responsive Personal Portfolio Website Design</title>
+        <!-- box icons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- header design -->
+        <header class="header">
+         <a href="#" class="logo">Portfolio</a>
+         <nav class="navbar">
+          <a href="#home"> Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+         </nav>
+         <div class="bx bx-moon" id="darkMode-icon"></div>
+
+         <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+        
+        <!-- home section design -->
+        <section class="home" id="home">
+           <div class="home-content">
+           <h3>Hello, My Name is</h3>
+           <h1> Mighty Shambel </h1>
+           <p>I am a 5th year Software Engineering student at Bahir Dar Institute of Technology</p>
+            <div class="social-media">
+               <a href="#"><i class='bx bxl-linkedin'></i></a>
+               <a href="#"><i class='bx bxl-twitter'></i></a>
+               <a href="#"><i class='bx bxl-instagram'></i></a>
+               <a href="#"><i class='bx bxl-facebook'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+           </div>
+
+           <div class="home-img" >
+            <img src="/images/mighty.jpg"   alt="profile">
+           </div>
+        </section>     
+         <!-- services section -->
+         <section class="services" id="services">
+            <h2 class="heading">About <Span class="serv">Me</Span></h2>
+            <div class="services-container">
+            <div class="services-box">
+                <h3>Bio</h3>
+                <p>I'm Mighty Shambel,hardworking and motivated person who is ready to learn 
+                    new things and bring out my ideas in solving problems.</p>
+                    <a href="bio.html" class="btn"> Read More</a>
+            </div>
+            <div class="services-box">
+                <h3>Basic Detail</h3>
+                <p>I'm Mighty Shambel,hardworking and motivated person who is ready to learn 
+                    new things and bring out my ideas in solving problems.</p>
+                    <a href="basic_detail.html" class="btn"> Read More</a>
+            </div>
+            <div class="services-box">
+                <h3>Education </h3>
+                <p>I'm Mighty Shambel,hardworking and motivated person who is ready to learn 
+                    new things and bring out my ideas in solving problems.</p>
+                    <a href="eduaction.html" class="btn"> Read More</a>
+            </div>
+            </div>
+         </section>
+         <section class="portfolio" id="portfolio">
+            <h2 class="heading">My <span class="project">Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/logo.jpg" alt="">
+                     <div class="portfolio-layer">
+                        <h4>Autos</h4>
+                         <p> Communication and Awareness platform for autism community building with vue js and tailwind css</p>
+                         <a href="#"><i class="bx bx-link-external"></i></a>
+                     </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/15.jpg" alt=""  style="height: 300px;">
+                     <div class="portfolio-layer">
+                        <h4>Helpdesk</h4>
+                         <p>My Internship project build with vue js and tailwind css</p>
+                         <a href="#"><i class="bx bx-link-external"></i></a>
+                     </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="images/auth.webp" style="height: 300px;" alt="">
+                     <div class="portfolio-layer">
+                        <h4>Autos</h4>
+                         <p> Build the UI/UX design for my final project Autos</p>
+                         <a href="#"><i class="bx bx-link-external"></i></a>
+                     </div>
+                </div>
+                
+                
+            </div>
+
+         </section>
+         <section class="contact" id="contact">
+            <h2 class="heading">Contact <span class="cont">Me!</span></h2>
+            <form action="#">
+             <div class="input-box">
+              <input type="text" placeholder="Full Name">
+              <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Mobile Number">
+               </div>
+               <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+               <a href="#" class="btn"> submit</a>
+            </form>
+         </section>
+         <footer class="footer">
+            <div class="footer-text"> 
+                <p>All rights Reserved</p>
+            </div>
+            <div class="footer-iconTop">
+              <a href="#home"> <i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+
+         </footer>
+         <!-- scroll reveal -->
+         <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- javascript -->
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
